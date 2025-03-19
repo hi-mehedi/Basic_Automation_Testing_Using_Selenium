@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mehedi.xPath.X_path_Example2">
+      <class name="com.mehedi.alerts.AlertsExample">
         <methods>
-          <include name="x_path"/>
-          <include name="closeBrowse"/>
-          <include name="stratBrowser"/>
           <include name="openUrl"/>
+          <include name="closeBrowse"/>
+          <include name="alertExa4"/>
+          <include name="stratBrowser"/>
         </methods>
-      </class> <!-- com.mehedi.xPath.X_path_Example2 -->
+      </class> <!-- com.mehedi.alerts.AlertsExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

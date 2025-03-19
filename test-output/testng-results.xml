@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-06T17:08:51 BDT" name="Default suite" finished-at="2025-03-06T17:09:08 BDT" duration-ms="17809">
+  <suite started-at="2025-03-07T04:02:03 BDT" name="Default suite" finished-at="2025-03-07T04:02:55 BDT" duration-ms="52369">
     <groups>
     </groups>
-    <test started-at="2025-03-06T17:08:51 BDT" name="Default test" finished-at="2025-03-06T17:09:08 BDT" duration-ms="17809">
-      <class name="com.navigation.web.NavigationWeb">
-        <test-method is-config="true" signature="stratBrowser()[pri:0, instance:com.navigation.web.NavigationWeb@3bd82cf5]" started-at="2025-03-06T17:08:36 BDT" name="stratBrowser" finished-at="2025-03-06T17:08:39 BDT" duration-ms="2213" status="PASS">
+    <test started-at="2025-03-07T04:02:03 BDT" name="Default test" finished-at="2025-03-07T04:02:55 BDT" duration-ms="52369">
+      <class name="com.mehedi.action_select.ActionSelect">
+        <test-method is-config="true" signature="stratBrowser()[pri:0, instance:com.mehedi.action_select.ActionSelect@3bd82cf5]" started-at="2025-03-07T04:01:38 BDT" name="stratBrowser" finished-at="2025-03-07T04:01:40 BDT" duration-ms="2283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stratBrowser -->
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.navigation.web.NavigationWeb@3bd82cf5]" started-at="2025-03-06T17:08:39 BDT" name="openUrl" finished-at="2025-03-06T17:08:51 BDT" depends-on-methods="com.webautomation.bd.BaseDriver.stratBrowser" duration-ms="11972" status="PASS">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.mehedi.action_select.ActionSelect@3bd82cf5]" started-at="2025-03-07T04:01:40 BDT" name="openUrl" finished-at="2025-03-07T04:02:03 BDT" depends-on-methods="com.webautomation.bd.BaseDriver.stratBrowser" duration-ms="22724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="WebNavigationExa()[pri:0, instance:com.navigation.web.NavigationWeb@3bd82cf5]" started-at="2025-03-06T17:08:51 BDT" name="WebNavigationExa" finished-at="2025-03-06T17:09:08 BDT" duration-ms="17758" status="PASS">
+        <test-method signature="action_Select()[pri:0, instance:com.mehedi.action_select.ActionSelect@3bd82cf5]" started-at="2025-03-07T04:02:03 BDT" name="action_Select" finished-at="2025-03-07T04:02:55 BDT" duration-ms="52298" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebNavigationExa -->
-        <test-method is-config="true" signature="closeBrowse()[pri:0, instance:com.navigation.web.NavigationWeb@3bd82cf5]" started-at="2025-03-06T17:09:09 BDT" name="closeBrowse" finished-at="2025-03-06T17:09:09 BDT" duration-ms="329" status="PASS">
+        </test-method> <!-- action_Select -->
+        <test-method is-config="true" signature="closeBrowse()[pri:0, instance:com.mehedi.action_select.ActionSelect@3bd82cf5]" started-at="2025-03-07T04:02:56 BDT" name="closeBrowse" finished-at="2025-03-07T04:02:56 BDT" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowse -->
-      </class> <!-- com.navigation.web.NavigationWeb -->
+      </class> <!-- com.mehedi.action_select.ActionSelect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
