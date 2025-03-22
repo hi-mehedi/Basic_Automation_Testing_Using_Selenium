@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mehedi.alerts.AlertsExample">
+      <class name="com.mehedi.KeyBoardEvent.KayBoardEvent">
         <methods>
-          <include name="openUrl"/>
           <include name="closeBrowse"/>
-          <include name="alertExa4"/>
+          <include name="copyPaste"/>
           <include name="stratBrowser"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.mehedi.alerts.AlertsExample -->
+      </class> <!-- com.mehedi.KeyBoardEvent.KayBoardEvent -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
